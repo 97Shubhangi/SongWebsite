@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+
+    background-color:thistle;
+
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    background-color: rgb(12, 11, 12);
+    color: wheat
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.home{
+    cursor: pointer;
+}
+
+.about{
+    cursor: pointer;
+}
+
+.brand img{
+    width: 23px;
+    padding: 0 9px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 17pt;
+    font-style: unset;
+    color: white
+
+}
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    position: center;
+    color: wheat;
+    font-family: 'Varela Round' sans-serif;
+    display: flex;
+    margin: 23px 150px;
+    width: 70%;
+    border-radius: 13px;
+    background-image: url(music.jpg)
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: rgb(22, 20, 22);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.icons{
+margin-top: 13px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-left: -220px;
+    margin-top: 30px;
+    padding-left: 200px;
+}
+
+.songItems{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 45px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 34px;
+
+}
+
+.songItems img{
+    width: 40px;
+    height: 40px;
+    margin: 0 2px;
+    border-radius: 34px;
+}
+
+.timeStapms{
+    margin: 0 23px;
+
+}
+
+.timeStapms i{
+    cursor: pointer;
+}
+fab, .far {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.songsInfo{
+
+    left: 10vw;
+    font-family: 'Verdana' sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.songsInfo img{
+    height: 43px;
+    width: 60px;
+    margin-top: 25px;
+    opacity: 0;
+    transition: opacity 0.6s ease-in; 
+}
+
+#masterSongName{
+    margin-left: 20px;
+}
